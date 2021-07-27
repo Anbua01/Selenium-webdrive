@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.909197">
+<testcase classname="To verify the login functionality" name="To Validate login using invalid credentials" time="5.928681">
+<failure message="java.lang.IndexOutOfBoundsException: Index: 3, Size: 2&#13;&#10;&#9;at java.util.ArrayList.rangeCheck(Unknown Source)&#13;&#10;&#9;at java.util.ArrayList.get(Unknown Source)&#13;&#10;&#9;at java.util.Collections$UnmodifiableList.get(Unknown Source)&#13;&#10;&#9;at org.stepdefinition.Steps.user_enter_invalid_username_and_password(Steps.java:39)&#13;&#10;&#9;at ✽.user enter invalid username and password(file:src/test/resources/Feature/login.feature:8)&#13;&#10;"><![CDATA[Given user has to be in the facebook........................................passed
+When user enter invalid username and password...............................failed
+And user click the login button.............................................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.stepdefinition.Steps.user_enter_invalid_username_and_password(Steps.java:39)
+	at ✽.user enter invalid username and password(file:src/test/resources/Feature/login.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="To verify the login functionality" name="To validate the login without passing credentials" time="4.980516">
+<system-out><![CDATA[Given user has to be in the facebook........................................passed
+When user click the login without passing value.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
