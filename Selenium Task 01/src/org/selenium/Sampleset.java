@@ -46,8 +46,8 @@ public class Sampleset {
 //	WebElement logbtn = driver.findElement(By.name("login"));
 //	
 //	
-//	txtemail.sendKeys("eickeystands@gmail.com");
-//	txtpass.sendKeys("natasha93");
+//	txtemail.sendKeys("xoxos@gmail.com");
+//	txtpass.sendKeys("Eminem93");
 //	logbtn.click();
 	
 	
