@@ -50,7 +50,7 @@ public class Sampleset {
 //	txtpass.sendKeys("Eminem93");
 //	logbtn.click();
 	
-	
+	Xpath Locators
 //	WebElement email = driver.findElement(By.xpath("//input[@type='text']"));
 //	
 //	WebElement pass = driver.findElement(By.xpath("//input[@id='pass']"));
@@ -107,7 +107,7 @@ public class Sampleset {
 //	WebElement fname = driver.findElement(By.name("firstname"));
 //	fname.sendKeys("Salman");
 	
-	//class25
+	Action Class
 	
 	
 //	WebElement course = driver.findElement(By.xpath("//a[text()='COURSES']"));
@@ -143,7 +143,7 @@ public class Sampleset {
 //	
 //	Actions a = new Actions(driver);
 //	
-//	
+Drag and Drop
 //	a.dragAndDrop(src, dest).perform();
 //	
 //	a.dragAndDrop(bank, debdes).perform();
@@ -154,6 +154,8 @@ public class Sampleset {
 	
 	
 	//class26
+		
+		Robot Class
 //	WebElement email = driver.findElement(By.id("email"));
 //	
 //	Actions a = new Actions(driver);
@@ -192,7 +194,7 @@ public class Sampleset {
 //logbtn.click();
 	
 	
-	//class27
+	Alert Handling
 	
 	
 //	WebElement btn = driver.findElement(By.xpath("//button[@onclick='alertbox()']"));
@@ -234,7 +236,7 @@ public class Sampleset {
 //	a.accept();
 	
 	
-	//class 28
+	Java Script Executor
 	
 //	WebElement email = driver.findElement(By.id("email"));
 //	
@@ -269,7 +271,7 @@ public class Sampleset {
 //	
 //	js.executeScript("arguments[0].scrollIntoView('false')", up);
 	
-	//class 29
+	TakeScreenshot
 	
 	
 //	TakesScreenshot tk = (TakesScreenshot) driver;
@@ -281,7 +283,7 @@ public class Sampleset {
 //	FileUtils.copyFile(src, des);
 	
 	
-	//Class 30
+	IFrame
 	
 //	driver.switchTo().frame("a077aa5e");
 //	WebElement jmeter = driver.findElement(By.xpath("//img[@src='Jmeter720.png']"));
@@ -313,7 +315,7 @@ public class Sampleset {
 //	
 //	driver.findElement(By.xpath("//span[text()='add to cart']")).click();
 	
-	//class32
+	Select
 	
 //	WebElement friuts = driver.findElement(By.xpath("//select[@id='fruits']"));
 //	
@@ -353,7 +355,7 @@ public class Sampleset {
 //
 //s.deselectAll();
 	
-	//class33
+	Tables
 	
 //	WebElement table = driver.findElement(By.id("customers"));
 //	List<WebElement> allrows = table.findElements(By.tagName("tr"));
@@ -393,7 +395,7 @@ public class Sampleset {
 				
 //			}
 	
-	//class35
+	
 	
 	
 			
